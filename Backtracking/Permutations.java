@@ -43,7 +43,7 @@ public class Permutations {
     
     public static void generate(int[] arr, int index) {
         if(index==arr.length) {
-            ArrayList<Integer> list = new ArrayList();
+            ArrayList<Integer> list = new ArrayList<>();
             for(int i=0; i<arr.length; i++)
                 list.add(arr[i]);
                 
